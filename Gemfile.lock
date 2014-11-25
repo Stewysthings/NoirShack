@@ -27,12 +27,16 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
+    ambry (0.3.1)
     arel (5.0.1.20140414130214)
     bcrypt (3.1.9)
     better_errors (2.0.0)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
       rack (>= 0.9.0)
+    bootstrap-kaminari-views (0.0.5)
+      kaminari (>= 0.13)
+      rails (>= 3.1)
     bootstrap-sass (3.3.1.0)
       sass (~> 3.2)
     builder (3.2.2)
@@ -44,6 +48,11 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.8.0)
+    draper (1.4.0)
+      actionpack (>= 3.0)
+      activemodel (>= 3.0)
+      activesupport (>= 3.0)
+      request_store (~> 1.0)
     erubis (2.7.0)
     execjs (2.2.2)
     hike (1.2.3)
@@ -55,8 +64,13 @@ GEM
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
     json (1.8.1)
+    kaminari (0.16.1)
+      actionpack (>= 3.0.0)
+      activesupport (>= 3.0.0)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
+    merit (2.2.0)
+      ambry (~> 0.3.0)
     mime-types (2.4.3)
     minitest (5.4.3)
     multi_json (1.10.1)
@@ -81,6 +95,7 @@ GEM
     rake (10.3.2)
     rdoc (4.1.2)
       json (~> 1.4)
+    request_store (1.1.0)
     sass (3.2.19)
     sass-rails (4.0.4)
       railties (>= 4.0.0, < 5.0)
@@ -116,6 +131,7 @@ GEM
     uglifier (2.5.3)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    will_paginate (3.0.7)
 
 PLATFORMS
   ruby
@@ -123,10 +139,14 @@ PLATFORMS
 DEPENDENCIES
   bcrypt (~> 3.1.7)
   better_errors (~> 2.0.0)
+  bootstrap-kaminari-views (~> 0.0.5)
   bootstrap-sass (~> 3.3.1.0)
   coffee-rails (~> 4.0.0)
+  draper (~> 1.4.0)
   jbuilder (~> 2.0)
   jquery-rails
+  kaminari (~> 0.16.1)
+  merit
   rails (~> 4.1.7)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
@@ -135,3 +155,4 @@ DEPENDENCIES
   turbolinks
   twitter-bootstrap-rails (~> 3.2.0)
   uglifier (>= 1.3.0)
+  will_paginate (~> 3.0.7)

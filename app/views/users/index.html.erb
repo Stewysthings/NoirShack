@@ -1,4 +1,4 @@
-<h1>Listing users</h1>
+<h1>Admin - Listing users</h1>
 <% if notice %>
 <p id="notice"><%= notice %></p>
 <% end %>
@@ -27,4 +27,5 @@
 
 <br>
 
-<%= link_to 'New User', new_user_path %>
+<%= link_to 'New User', new_user_path %> |
+  <%= link_to 'Home', welcome_index_path %>

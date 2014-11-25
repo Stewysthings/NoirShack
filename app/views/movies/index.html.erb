@@ -1,4 +1,4 @@
-<h1>Listing movies</h1>
+<h1>The Movies List</h1>
 
 <table>
 <% @movies.each do |movie| %>
@@ -14,12 +14,14 @@
     </td>
     <td class="list_actions">
       <%= link_to 'Show', movie %><br/>
-      <%= link_to 'Edit', edit_movie_path(movie) %><br/>
-      <%= link_to 'Destroy', movie, method: :delete,
+      <%= link_to 'I have watched this movie' %><br/>
+      <%= link_to 'Admin - Edit', edit_movie_path(movie) %><br/>
+      <%= link_to 'Admin - Destroy', movie, method: :delete,
                   data: { confirm: 'Are you sure?' } %>
     </td>
   </tr>
 <% end %>
 </table>
 <br />
-<%= link_to 'New movie', new_movie_path %>
+<%= link_to 'New movie', new_movie_path %> |
+<%= link_to 'Home', welcome_index_path %>
