@@ -147,7 +147,7 @@ DEPENDENCIES
   jquery-rails
   kaminari (~> 0.16.1)
   merit
-  rails (~> 4.1.7)
+  rails
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spring

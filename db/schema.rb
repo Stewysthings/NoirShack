@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141124135718) do
+ActiveRecord::Schema.define(version: 20141125171940) do
 
   create_table "badges_sashes", force: true do |t|
     t.integer  "badge_id"
@@ -76,6 +76,8 @@ ActiveRecord::Schema.define(version: 20141124135718) do
     t.string   "password_digest"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "sash_id"
+    t.integer  "level",           default: 0
   end
 
 end
