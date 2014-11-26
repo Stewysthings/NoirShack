@@ -1,5 +1,6 @@
 class User < ActiveRecord::Base
-  has_merit
+  # Include default devise modules. Others available are:
+  # :confirmable, :lockable, :timeoutable and :omniauthable
 
   validates :name, presence: true, uniqueness: true
   has_secure_password
