@@ -1,6 +1,7 @@
 require 'test_helper'
 
 class SessionsControllerTest < ActionController::TestCase
+  skip_before _action :authorize
   test "should get new" do
     get :new
     assert_response :success
