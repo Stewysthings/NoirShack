@@ -151,7 +151,7 @@ DEPENDENCIES
   kaminari (~> 0.16.1)
   merit
   rails (~> 4.1.7)
-  sass-rails (~> 4.0.3)
+  sass-rails
   sdoc (~> 0.4.0)
   spring
   sqlite3

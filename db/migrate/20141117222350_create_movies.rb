@@ -5,8 +5,10 @@ class CreateMovies < ActiveRecord::Migration
       t.text :description
       t.string :image_url
       t.string :link_url
+      t.string :integer
 
       t.timestamps
     end
   end
+end
 end

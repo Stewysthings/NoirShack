@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141125232204) do
+ActiveRecord::Schema.define(version: 20141130185857) do
 
   create_table "admins", force: true do |t|
     t.string   "email",                  default: "", null: false
@@ -82,6 +82,7 @@ ActiveRecord::Schema.define(version: 20141125232204) do
     t.string   "link_url"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "points"
   end
 
   create_table "sashes", force: true do |t|

@@ -23,6 +23,11 @@
    <%= @movie.link_url %>
  </p>
 
+ <p>
+    <strong>Points:</strong>
+   <%= @movie.integer %>
+ </p>
+
   <%= link_to 'Edit', edit_movie_path(@movie) %> |
   <%= link_to 'Back', movies_path %>
 </div>
