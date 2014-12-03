@@ -5,8 +5,9 @@ body {
 }
 
 a {
-	color: #4fb69f;
-	text-decoration: none;
+	font-weight: 100;
+	font-size: 1.500em;
+	color: yellow;
 }
 
 h1 {
@@ -155,4 +156,5 @@ padding: 15px;
 width: 300px;
 height: 300px;
 border: 25px solid black;
+font-color: yellow;
 } 

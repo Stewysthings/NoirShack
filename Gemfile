@@ -20,6 +20,7 @@ gem 'bootstrap-kaminari-views', '~> 0.0.5'
 
 
 
+
 gem 'will_paginate', '~> 3.0.7'
 
 # Use CoffeeScript for .js.coffee assets and views
