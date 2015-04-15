@@ -1,9 +1,6 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-
-
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -17,9 +14,6 @@ gem 'merit'
 gem 'draper', '~> 1.4.0'
 gem 'kaminari', '~> 0.16.1'
 gem 'bootstrap-kaminari-views', '~> 0.0.5'
-
-
-
 
 gem 'will_paginate', '~> 3.0.7'
 
@@ -38,20 +32,14 @@ gem 'jbuilder', '~> 2.0'
 
 gem 'better_errors', '~> 2.0.0'
 
-
 gem 'bootstrap-sass', '~> 3.3.1.0'
 gem 'twitter-bootstrap-rails', '~> 3.2.0'
-
-
-
 gem 'rails', '~> 4.1.7'
 
 group :assets do
 gem "sass-rails"
  
 end
-
-
 
 
 # bundle exec rake doc:rails generates the API under doc/api.

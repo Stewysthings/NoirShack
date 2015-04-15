@@ -11,4 +11,3 @@ class CreateMovies < ActiveRecord::Migration
     end
   end
 end
-end
